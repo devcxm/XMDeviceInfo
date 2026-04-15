@@ -1,29 +1,17 @@
 # XMDeviceInfo
 
-[![CI Status](https://img.shields.io/travis/chixm/XMDeviceInfo.svg?style=flat)](https://travis-ci.org/chixm/XMDeviceInfo)
-[![Version](https://img.shields.io/cocoapods/v/XMDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/XMDeviceInfo)
-[![License](https://img.shields.io/cocoapods/l/XMDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/XMDeviceInfo)
-[![Platform](https://img.shields.io/cocoapods/p/XMDeviceInfo.svg?style=flat)](https://cocoapods.org/pods/XMDeviceInfo)
+本项目是 [react-native-device-info](https://github.com/react-native-device-info/react-native-device-info) 的 **纯 iOS 原生实现版本**。
 
-## Example
+## 简介
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+这个项目将流行的 React Native 库 `react-native-device-info` 中的 iOS 原生代码部分提取出来，去除了所有与 React Native 相关的依赖和桥接代码。
 
-## Requirements
 
-## Installation
+## 致谢
 
-XMDeviceInfo is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+本项目的核心逻辑来源于开源社区的杰出贡献，特别感谢：
+- [react-native-device-info](https://github.com/react-native-device-info/react-native-device-info)
 
-```ruby
-pod 'XMDeviceInfo'
-```
+## 许可证
 
-## Author
-
-chixm, devcxm@gmail.com
-
-## License
-
-XMDeviceInfo is available under the MIT license. See the LICENSE file for more info.
+本项目基于 MIT 协议开源，详情请参阅 [LICENSE](LICENSE) 文件。
