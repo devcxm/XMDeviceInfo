@@ -1,0 +1,16 @@
+PODS:
+  - XMDeviceInfo (0.1.0)
+
+DEPENDENCIES:
+  - XMDeviceInfo (from `../`)
+
+EXTERNAL SOURCES:
+  XMDeviceInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMDeviceInfo: d201de115a6f1fa179456994e2258a2a3c52eef8
+
+PODFILE CHECKSUM: 786d58fa9ba298dc73617ea7e190a3909d7924b2
+
+COCOAPODS: 1.16.2

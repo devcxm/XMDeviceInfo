@@ -8,10 +8,13 @@
 
 #import "XMAppDelegate.h"
 
+#import <XMDeviceInfo/XMUAHelper.h>
+
 @implementation XMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[XMUAHelper helper] preload:nil];
     // Override point for customization after application launch.
     return YES;
 }
